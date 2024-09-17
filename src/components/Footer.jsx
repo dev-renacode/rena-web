@@ -14,8 +14,8 @@ function Footer() {
 
             <div className="flex jusify-center gap-3 pb-4">
                 <a href="https://www.instagram.com/renaa.js/" target="_blank"><FaInstagram className="w-7 h-7"/></a>
-                <a href="#"><FaXTwitter className="w-7 h-7"/></a>
-                <a href="https://github.com/renaherrera" target="_blank"><FaGithub className="w-7 h-7"/></a>
+                <a href="https://x.com/devrena17"><FaXTwitter className="w-7 h-7"/></a>
+                <a href="https://github.com/dev-renacode" target="_blank"><FaGithub className="w-7 h-7"/></a>
                 <a href="https://www.youtube.com/@renaaacl" target="_blank"><FaYoutube className="w-7 h-7"/></a>
             </div>
           </div>
