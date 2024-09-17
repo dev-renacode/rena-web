@@ -23,7 +23,7 @@ function App() { //TODO: Arreglar variable text para pasarla.
             <p className="text-xl [&>strong]:text-red-400 [&>strong]:font-semibold">Soy un <strong>desarrollador</strong> y <strong>diseñador</strong> apasionado, siempre buscando nuevas oportunidades y desafíos para crecer.</p>
 
             <div className="flex mt-5 gap-3">
-                <Button color="gray" pill href="https://github.com/renaherrera" target="_blank">
+                <Button color="gray" pill href="https://github.com/dev-renacode" target="_blank">
                     <FaGithub className="w-5 h-5 mr-2"/> See my GitHub
                 </Button>
             </div>
