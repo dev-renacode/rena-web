@@ -7,9 +7,8 @@ function Footer() {
         <div className="px-5 p-5 mt-20 lg:max-w-4xl m-auto">
           <div className="lg:flex lg:flex-row lg:items-center lg:justify-between">
             <div className="flex flex-col pb-5">
-                <a href="">Repositorio</a>
-                <a href="">Consultas</a>
-                <a href="">Mensaje</a>
+                <a href="https://github.com/dev-renacode/rena-web" target="_blank">Repositorio</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=re.herrerac@duocuc.cl" target="_blank">Consultas</a>
             </div>
 
             <div className="flex jusify-center gap-3 pb-4">

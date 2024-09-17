@@ -16,7 +16,7 @@ function App() { //TODO: Arreglar variable text para pasarla.
     }
 
   return (
-    <section className='px-5 lg:max-w-4xl lg:px-0 m-auto'>
+    <section id="inicio" className='px-5 lg:max-w-4xl lg:px-0 m-auto'>
         <section className="py-36 max-w-2xl ">
             <h1 className="text-3xl lg:text-5xl font-bold pb-3 text-white">¡Hola!, soy <strong className="text-[#ff5757]">Renato Herrera</strong></h1>
             <h2 className="text-2xl pb-2 ">Explora mi mundo de <strong className="text-sky-300">Programación</strong> y <strong className="text-purple-400">Diseño</strong>.</h2>
@@ -52,7 +52,7 @@ function App() { //TODO: Arreglar variable text para pasarla.
             </div>
         </section>
         
-        <section className="my-36 flex flex-col text-center">
+        <section id="conocimientos" className="py-36 flex flex-col text-center">
             <h2 className="text-4xl font-bold text-white">Tecnologías Aprendidas</h2>
             <div className="grid grid-cols-2 lg:grid-cols-3">
                 <TechCard text="JavaScript">
@@ -76,7 +76,7 @@ function App() { //TODO: Arreglar variable text para pasarla.
             </div>
         </section>
 
-        <section className="text-lg mt-20">
+        <section id="sobremi" className="text-lg pt-20">
             <h2 className="text-4xl font-bold pb-3 text-white">Sobre mi</h2>
             <p className="pb-3">
                 Soy {<BoldText text="Renato Herrera"/>}, actualmennte estudiando primer año de {<BoldText text='Ingeniería informática'/>} en DuocUC, Tengo 19 años, vivo en Santiago, Chile. Siempre me ha gustado programar, me gusta ver lo que hago plasmado en código. Llevo 2 años aprendiendo programación web, este año 2024 sobre todo me enfocado más, se tecnologías esenciales como {<BoldText text='HTML, CSS y Javascript'/>} también frameworks como {<BoldText text='Astro, Vite, React y TailwindCSS'/>}. Por otro lado también tengo conocimiento de {<BoldText text='Python'/>} y actualmente aprendiendo {<BoldText text='Java'/>}.
@@ -86,7 +86,7 @@ function App() { //TODO: Arreglar variable text para pasarla.
             </p>
         </section>
 
-        <section className="my-36">
+        <section id="ruta" className="py-36">
             <h2 className="text-3xl font-bold pb-3 text-white">Mi ruta de aprendizaje</h2>
             <ul className="text-lg flex flex-col gap-3 list-decimal pl-5">
                 <li>{<BoldText text="Aprender HTML"/>}: Empecé en todo este mundo aprendiendo HTML, por este lado comenzó todo el camino hacia mi objetivo de ser desarrollador de paginas web.</li>

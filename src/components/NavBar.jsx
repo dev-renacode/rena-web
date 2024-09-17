@@ -1,5 +1,6 @@
 import { FaBars } from "react-icons/fa"
 import { useState } from 'react'
+import { Link } from 'react-scroll';
 
 export default function Header(){
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -22,7 +23,7 @@ export default function Header(){
             transition-shadow duration-200
             ">
                 <strong className="text-[#ff9494] text-3xl">
-                    <span className="text-[#ff5757]">Rena</span>Code{"</>"}
+                    <a href="#"><span className="text-[#ff5757]">Rena</span>Code{"</>"}</a>
                 </strong>
 
                 <div className="lg:hidden">
@@ -32,18 +33,18 @@ export default function Header(){
                 </div>
 
                 <nav className="hidden lg:flex gap-5">
-                    <a {...classNamesLinks} aria-label="Inicio de la página" href="#">Inicio</a>
-                    <a {...classNamesLinks} aria-label="Mis conocimientos" href="#">Conocimientos</a>
-                    <a {...classNamesLinks} aria-label="Sobre mi, mis estudios, etc..." href="#">Sobre mi</a>
-                    <a {...classNamesLinks} aria-label="Mi ruta de aprendizaje" href="#">Ruta</a>
+                    <Link {...classNamesLinks} className="cursor-pointer" to="inicio" smooth={true} duration={500}>Inicio</Link>
+                    <Link {...classNamesLinks} className="cursor-pointer" to="conocimientos" smooth={true} duration={500}>Conocimientos</Link>
+                    <Link {...classNamesLinks} className="cursor-pointer" to="sobremi" smooth={true} duration={500}>Sobre mi</Link>
+                    <Link {...classNamesLinks} className="cursor-pointer" to="ruta" smooth={true} duration={500}>Ruta</Link>
                 </nav>
             </div>
 
             <nav className={navClassName}>
-                <a {...classNamesLinks} aria-label="Inicio de la página" href="#">Inicio</a>
-                <a {...classNamesLinks} aria-label="Mis conocimientos" href="#">Conocimientos</a>
-                <a {...classNamesLinks} aria-label="Sobre mi, mis estudios, etc..." href="#">Sobre mi</a>
-                <a {...classNamesLinks} aria-label="Mi ruta de aprendizaje" href="#">Ruta</a>
+                <Link {...classNamesLinks} to="inicio" smooth={true} duration={500}>Inicio</Link>
+                <Link {...classNamesLinks} to="conocimientos" smooth={true} duration={500}>Conocimientos</Link>
+                <Link {...classNamesLinks} to="sobremi" smooth={true} duration={500}>Sobre mi</Link>
+                <Link {...classNamesLinks} to="ruta" smooth={true} duration={500}>Ruta</Link>
             </nav>
         </header>
     )
